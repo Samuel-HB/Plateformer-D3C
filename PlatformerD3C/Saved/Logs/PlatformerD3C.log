@@ -3967,3 +3967,55 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2026.05.18-09.19.38:376][172]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4997.177734
 [2026.05.18-09.19.39:376][176]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.05.18-09.19.39:376][176]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4997.844727, Update Interval: 306.013367
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: ================================================
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Total job queries 539, among them cache hits 78 (14.47%), DDC hits 349 (64.75%), Duplicates 78 (14.47%)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Tracking 383 distinct input hashes that result in 267 distinct outputs (69.71%)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: RAM used: 3,54 MiB of 819,20 MiB budget. Usage: 0.43%
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Shaders Compiled: 34
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Jobs assigned 34, completed 34 (100%)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Average time worker was idle: 85.34 s
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Job execution time: average 0.95 s, max 2.26 s
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Job life time (pending + execution): average 1.01 s, max 2.33
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Shader code size: total 353,191 KiB, numShaders 40, average 8,829 KiB, min 2,637 KiB, max 16,305 KiB
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.61 s
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.04%
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Jobs were issued in 34 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Average processing rate: 3.95 jobs/sec
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Total thread time: 18,63 s
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Total thread preprocess time: 7,807 s
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Percentage time preprocessing: 41.91%
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Effective parallelization: 2.16 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.180297
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    7 times, average 0.75 sec, max 1.03 sec, min 0.52 sec)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.71 sec, max 0.71 sec, min 0.71 sec)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display:                                                FAnisotropyPS (compiled    4 times, average 0.57 sec, max 0.62 sec, min 0.50 sec)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 28.19% of total time (compiled    7 times, average 0.75 sec, max 1.03 sec, min 0.52 sec)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.19% of total time (compiled    7 times, average 0.43 sec, max 0.54 sec, min 0.34 sec)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display:                                                FAnisotropyPS - 12.14% of total time (compiled    4 times, average 0.57 sec, max 0.62 sec, min 0.50 sec)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.85% of total time (compiled    5 times, average 0.29 sec, max 0.38 sec, min 0.23 sec)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 6.07% of total time (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: === Material stats ===
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Materials Translated:    148
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Material Translation Only: 0.04 s (33%)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: Material Cache Hits: 16 (11%)
+[2026.05.18-09.20.33:894][ 32]LogShaderCompilers: Display: ================================================
+[2026.05.18-09.22.49:772][184]LogWindows: LaunchURL https://creativecommons.org/licenses/by/4.0/
+[2026.05.18-09.24.31:149][734]LogWindows: LaunchURL https://www.fab.com/eula
+[2026.05.18-09.24.45:150][137]LogFab: Display: Asset Type = unreal-engine
+[2026.05.18-09.24.45:150][137]LogFab: Display: Is Quixel = 0
+[2026.05.18-09.24.45:150][137]LogFab: Display: Base Url https://egdownload.fastly-edge.com/Builds/Rocket/Automated/SciFITro8bcdbd25f987V1/CloudDir,https://epicgames-download1.akamaized.net/Builds/Rocket/Automated/SciFITro8bcdbd25f987V1/CloudDir,https://egs-cloudfront-chunks.epicgamescdn.com/Builds/Rocket/Automated/SciFITro8bcdbd25f987V1/CloudDir
+[2026.05.18-09.24.45:509][150]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18414092516842249257
+[2026.05.18-09.24.45:509][150]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2026.05.18-09.24.45:517][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-09.25.36:539][327]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5355.216797
+[2026.05.18-09.25.37:539][330]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.18-09.25.37:539][330]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5355.883301, Update Interval: 354.123962
