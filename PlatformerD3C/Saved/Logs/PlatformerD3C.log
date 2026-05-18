@@ -1321,3 +1321,244 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.18-07.56.29:621][  8]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -1745642100
 [2026.05.18-07.56.29:621][  8]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8.183158, Update Interval: 343.435760
 [2026.05.18-07.58.17:971][731]LogDerivedDataCache: C:/Users/samhb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.18-08.02.13:079][686]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 351.976562
+[2026.05.18-08.02.14:078][689]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.18-08.02.14:078][690]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 352.642273, Update Interval: 321.835999
+[2026.05.18-08.02.23:585][880]LogSlate: Window 'Save Level As' being destroyed
+[2026.05.18-08.02.32:805][  7]LogSlate: Window 'Save Level As' being destroyed
+[2026.05.18-08.02.32:817][  7]LogAutomationController: Ignoring very large delta of 7.06 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.05.18-08.02.54:677][954]LogSlate: Window 'Save Level As' being destroyed
+[2026.05.18-08.02.54:694][954]LogAutomationController: Ignoring very large delta of 5.75 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.05.18-08.02.58:261][165]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.18-08.03.00:508][165]LogSlate: Window 'New Level' being destroyed
+[2026.05.18-08.03.00:519][165]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.18-08.03.00:543][165]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2026.05.18-08.03.00:543][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-08.03.00:545][165]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2026.05.18-08.03.00:568][165]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.18-08.03.00:624][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.05.18-08.03.00:632][165]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2026.05.18-08.03.00:632][165]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_2
+[2026.05.18-08.03.00:644][165]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.18-08.03.00:660][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.05.18-08.03.00:661][165]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.18-08.03.00:661][165]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,117ms to complete.
+[2026.05.18-08.03.00:675][165]LogAutomationController: Ignoring very large delta of 2.47 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.05.18-08.03.00:693][167]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.18-08.03.07:078][525]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.05.18-08.03.07:086][525]LogContentBrowser: Creating deferred item: NewFolder
+[2026.05.18-08.03.07:093][526]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.05.18-08.03.10:991][760]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
+[2026.05.18-08.03.10:992][760]LogContentBrowser: End creating deferred item NewFolder
+[2026.05.18-08.03.25:727][902]LogSlate: Window 'Save Level As' being destroyed
+[2026.05.18-08.03.25:825][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.05.18-08.03.25:838][902]LogSavePackage: Moving output files for package: /Game/Levels/FirstMap
+[2026.05.18-08.03.25:838][902]LogSavePackage: Moving '../../../../../../Users/samhb/Desktop/Git Repositories/Plateformer-D3C/PlatformerD3C/Saved/FirstMap4549606B428858458A9BC69F4144E7C3.tmp' to '../../../../../../Users/samhb/Desktop/Git Repositories/Plateformer-D3C/PlatformerD3C/Content/Levels/FirstMap.umap'
+[2026.05.18-08.03.25:855][902]LogFileHelpers: Saving map 'FirstMap' took 0.120
+[2026.05.18-08.03.25:855][902]Cmd: MAP LOAD FILE="../../../../../../Users/samhb/Desktop/Git Repositories/Plateformer-D3C/PlatformerD3C/Content/Levels/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.18-08.03.25:867][902]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.18-08.03.25:867][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-08.03.25:881][902]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.18-08.03.25:883][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.05.18-08.03.25:883][902]LogStreaming: Display: FlushAsyncLoading(477): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.18-08.03.25:885][902]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstMap'.
+[2026.05.18-08.03.25:885][902]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstMap
+[2026.05.18-08.03.25:899][902]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.18-08.03.25:913][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.05.18-08.03.25:917][902]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.18-08.03.25:917][902]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,045ms to complete.
+[2026.05.18-08.03.25:972][902]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.18-08.03.25:972][902]LogContentValidation: Enabled validators:
+[2026.05.18-08.03.25:973][902]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.18-08.03.25:973][902]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.18-08.03.25:973][902]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.18-08.03.25:973][902]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.18-08.03.25:973][902]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.18-08.03.25:973][902]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.18-08.03.25:974][902]AssetCheck: /Game/Levels/FirstMap Validating asset
+[2026.05.18-08.03.25:997][902]LogAutomationController: Ignoring very large delta of 12.62 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.05.18-08.03.25:999][902]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/samhb/Desktop/Git Repositories/Plateformer-D3C/PlatformerD3C/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.18-08.03.26:009][904]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.18-08.04.13:190][ 16]LogSlate: Window 'Message' being destroyed
+[2026.05.18-08.04.13:199][ 16]Message dialog closed, result: Cancel, title: Message, text: Source code, config INI, and text files may need Find/Replace for:
+
+
+FirstMap
+
+Otherwise assets can be missing from cooked builds. Continue with rename?
+[2026.05.18-08.04.13:245][ 16]LogAutomationController: Ignoring very large delta of 2.80 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.05.18-08.04.20:668][443]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.05.18-08.04.20:669][443]LogStreaming: Display: FlushAsyncLoading(478): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.18-08.04.25:794][741]LogSlate: Window 'Advanced Copy Asset Report' being destroyed
+[2026.05.18-08.04.33:487][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.05.18-08.04.33:488][175]LogStreaming: Display: FlushAsyncLoading(479): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.18-08.04.33:500][175]LogChaosDD: Creating Chaos Debug Draw Scene for world UntitledLevel
+[2026.05.18-08.04.33:501][175]LogWorldPartition: ULevel::OnLevelLoaded(UntitledLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.05.18-08.04.33:501][175]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.05.18-08.04.33:501][175]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UntitledLevel.UntitledLevel, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.05.18-08.04.33:508][175]LogWorldPartition: Display: WorldPartition initialize took 7.470 ms (total: 418.439 ms)
+[2026.05.18-08.04.33:509][175]LogAssetEditorSubsystem: Opening Asset editor for World /Game/UntitledLevel.UntitledLevel
+[2026.05.18-08.04.33:509][175]Cmd: MAP LOAD FILE="../../../../../../Users/samhb/Desktop/Git Repositories/Plateformer-D3C/PlatformerD3C/Content/UntitledLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.18-08.04.33:521][175]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.18-08.04.33:521][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-08.04.33:532][175]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.18-08.04.33:533][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.05.18-08.04.33:535][175]LogWorld: UWorld::CleanupWorld for UntitledLevel, bSessionEnded=true, bCleanupResources=true
+[2026.05.18-08.04.33:535][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-08.04.33:535][175]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UntitledLevel.UntitledLevel
+[2026.05.18-08.04.33:548][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.05.18-08.04.33:563][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.05.18-08.04.33:566][175]LogAudio: Display: Audio Device (ID: 1) registered with world 'UntitledLevel'.
+[2026.05.18-08.04.33:566][175]LogChaosDD: Creating Chaos Debug Draw Scene for world UntitledLevel
+[2026.05.18-08.04.33:567][175]LogWorldPartition: ULevel::OnLevelLoaded(UntitledLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.05.18-08.04.33:567][175]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.05.18-08.04.33:567][175]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UntitledLevel.UntitledLevel, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.05.18-08.04.33:819][175]LogWorldPartition: Display: WorldPartition initialize took 251.211 ms (total: 669.650 ms)
+[2026.05.18-08.04.33:923][175]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.18-08.04.33:937][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2026.05.18-08.04.33:941][175]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.18-08.04.33:942][175]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,761ms to complete.
+[2026.05.18-08.04.34:319][177]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.18-08.05.14:269][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.18-08.05.14:272][397]LogAssetEditorSubsystem: Opening Asset editor for World /Game/UntitledLevel.UntitledLevel
+[2026.05.18-08.05.14:272][397]Cmd: MAP LOAD FILE="../../../../../../Users/samhb/Desktop/Git Repositories/Plateformer-D3C/PlatformerD3C/Content/UntitledLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.18-08.05.14:291][397]LogWorld: UWorld::CleanupWorld for UntitledLevel, bSessionEnded=true, bCleanupResources=true
+[2026.05.18-08.05.14:291][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-08.05.14:291][397]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UntitledLevel.UntitledLevel
+[2026.05.18-08.05.14:310][397]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.18-08.05.14:317][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.05.18-08.05.14:319][397]LogStreaming: Display: FlushAsyncLoading(639): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.18-08.05.14:321][397]LogAudio: Display: Audio Device (ID: 1) registered with world 'UntitledLevel'.
+[2026.05.18-08.05.14:321][397]LogChaosDD: Creating Chaos Debug Draw Scene for world UntitledLevel
+[2026.05.18-08.05.14:322][397]LogWorldPartition: ULevel::OnLevelLoaded(UntitledLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.05.18-08.05.14:322][397]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.05.18-08.05.14:322][397]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UntitledLevel.UntitledLevel, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.05.18-08.05.14:525][397]LogWorldPartition: Display: WorldPartition initialize took 203.383 ms (total: 873.034 ms)
+[2026.05.18-08.05.14:626][397]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.18-08.05.14:639][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.05.18-08.05.14:644][397]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.18-08.05.14:644][397]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,734ms to complete.
+[2026.05.18-08.05.14:929][398]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.18-08.05.16:023][454]LogAssetEditorSubsystem: Opening Asset editor for HLODLayer /Game/UntitledLevel_HLOD0_Instancing.UntitledLevel_HLOD0_Instancing
+[2026.05.18-08.05.17:923][552]LogSlate: Window 'UntitledLevel_HLOD0_Instancing' being destroyed
+[2026.05.18-08.05.43:506][873]LogSlate: Window 'New Level' being destroyed
+[2026.05.18-08.05.43:513][873]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.18-08.05.43:535][873]LogWorld: UWorld::CleanupWorld for UntitledLevel, bSessionEnded=true, bCleanupResources=true
+[2026.05.18-08.05.43:535][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-08.05.43:535][873]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UntitledLevel.UntitledLevel
+[2026.05.18-08.05.43:559][873]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.18-08.05.43:578][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.05.18-08.05.43:580][873]LogStreaming: Display: FlushAsyncLoading(783): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.18-08.05.43:581][873]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_3'.
+[2026.05.18-08.05.43:581][873]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_3
+[2026.05.18-08.05.43:591][873]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.18-08.05.43:606][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.05.18-08.05.43:607][873]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.18-08.05.43:607][873]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,131ms to complete.
+[2026.05.18-08.05.43:618][873]LogAutomationController: Ignoring very large delta of 3.41 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.05.18-08.05.43:625][875]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.18-08.05.55:939][  5]LogSlate: Window 'Save Level As' being destroyed
+[2026.05.18-08.05.56:029][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.05.18-08.05.56:036][  5]LogSavePackage: Moving output files for package: /Game/Levels/FirstMap
+[2026.05.18-08.05.56:036][  5]LogSavePackage: Moving '../../../../../../Users/samhb/Desktop/Git Repositories/Plateformer-D3C/PlatformerD3C/Saved/FirstMap6C3EB3F545802BA4137BF0935C664763.tmp' to '../../../../../../Users/samhb/Desktop/Git Repositories/Plateformer-D3C/PlatformerD3C/Content/Levels/FirstMap.umap'
+[2026.05.18-08.05.56:047][  5]LogFileHelpers: Saving map 'FirstMap' took 0.099
+[2026.05.18-08.05.56:047][  5]Cmd: MAP LOAD FILE="../../../../../../Users/samhb/Desktop/Git Repositories/Plateformer-D3C/PlatformerD3C/Content/Levels/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.18-08.05.56:059][  5]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.18-08.05.56:059][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-08.05.56:072][  5]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.18-08.05.56:073][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.05.18-08.05.56:073][  5]LogStreaming: Display: FlushAsyncLoading(784): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.18-08.05.56:076][  5]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstMap'.
+[2026.05.18-08.05.56:076][  5]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstMap
+[2026.05.18-08.05.56:088][  5]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.18-08.05.56:103][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2026.05.18-08.05.56:107][  5]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.18-08.05.56:107][  5]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,046ms to complete.
+[2026.05.18-08.05.56:157][  5]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.18-08.05.56:157][  5]LogContentValidation: Enabled validators:
+[2026.05.18-08.05.56:157][  5]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.18-08.05.56:157][  5]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.18-08.05.56:157][  5]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.18-08.05.56:157][  5]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.18-08.05.56:157][  5]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.18-08.05.56:157][  5]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.18-08.05.56:157][  5]AssetCheck: /Game/Levels/FirstMap Validating asset
+[2026.05.18-08.05.56:173][  5]LogAutomationController: Ignoring very large delta of 10.22 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.05.18-08.05.56:185][  6]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.18-08.06.02:980][398]LogStreaming: Display: FlushAsyncLoading(785): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.18-08.06.03:198][398]LogChaosDD: Creating Chaos Debug Draw Scene for world UntitledLevel
+[2026.05.18-08.06.03:198][398]LogWorldPartition: ULevel::OnLevelLoaded(UntitledLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.05.18-08.06.03:198][398]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.05.18-08.06.03:198][398]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UntitledLevel.UntitledLevel, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.05.18-08.06.03:201][398]LogWorldPartition: Display: WorldPartition initialize took 2.685 ms (total: 875.719 ms)
+[2026.05.18-08.06.03:229][398]LogObjectTools: Deleting 1 worlds: /Game/UntitledLevel.UntitledLevel
+[2026.05.18-08.06.03:229][398]LogObjectTools: Currently 1 active worlds: /Game/Levels/FirstMap.FirstMap
+[2026.05.18-08.06.03:239][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.05.18-08.06.17:095][398]LogSlate: Window 'Delete Assets' being destroyed
+[2026.05.18-08.06.17:129][398]LogUObjectGlobals: Force Deleting 145 Package(s):
+	Asset Name: /Game/UntitledLevel.UntitledLevel
+	Asset Type: World
+	Asset Name: /Game/__ExternalActors__/UntitledLevel/5/UB/7PXK84Y8D15LRXCCHF1ZYY
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/UntitledLevel/0/BP/98DB8TO5TYXKCQWW6DX2J1
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/UntitledLevel/3/1K/570B4OYVOAZ1JNW5TLSAO7
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/UntitledLevel/4/W5/V8VG9KPB2CUL5QQ1BHCKVS
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/UntitledLevel/8/HY/WT90NL3Z7UCVD4CH77LZAE
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/UntitledLevel/9/71/BWZGWABHUZIKRIOOAS5R3Z
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/UntitledLevel/9/KT/WM8QFRVVNA1IPIXVMN0L4M
+	Asset Type: Package
+	Asset Name: /Game/__ExternalActors__/UntitledLevel/0/1T/ETCV4FK2AWQADIWH72MYBL
+	Asset Type: Package
+	Asset Name: /Game/__ExternalActors__/UntitledLevel/0/6P/BPUE5T1REX6FGBSC4Q7YA1
+	Asset Type: Package
+[2026.05.18-08.06.17:213][398]LogWorld: UWorld::CleanupWorld for UntitledLevel, bSessionEnded=true, bCleanupResources=true
+[2026.05.18-08.06.17:213][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-08.06.17:213][398]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UntitledLevel.UntitledLevel
+[2026.05.18-08.06.17:215][398]LogLandscape: Warning: Landscape Group (1223092536) had registered components at destruction, this indicates some components were not properly unregistered
+[2026.05.18-08.06.26:978][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.05.18-08.06.26:994][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.18-08.06.27:008][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2026.05.18-08.06.27:054][398]LogAutomationController: Ignoring very large delta of 24.09 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.05.18-08.06.29:517][538]LogAssetEditorSubsystem: Opening Asset editor for HLODLayer /Game/UntitledLevel_HLOD0_Instancing.UntitledLevel_HLOD0_Instancing
+[2026.05.18-08.06.32:782][717]LogSlate: Window 'UntitledLevel_HLOD0_Instancing' being destroyed
+[2026.05.18-08.06.35:275][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.05.18-08.06.35:373][859]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2026.05.18-08.06.35:378][859]LogSlate: Took 0.003548 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2026.05.18-08.06.36:189][859]LogSlate: Window 'Delete Assets' being destroyed
+[2026.05.18-08.06.36:217][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2026.05.18-08.06.36:233][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.05.18-08.06.36:249][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.18-08.06.39:841][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.05.18-08.06.39:843][ 67]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/FirstMap.FirstMap
+[2026.05.18-08.06.39:843][ 67]Cmd: MAP LOAD FILE="../../../../../../Users/samhb/Desktop/Git Repositories/Plateformer-D3C/PlatformerD3C/Content/Levels/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.18-08.06.39:855][ 67]LogWorld: UWorld::CleanupWorld for FirstMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.18-08.06.39:855][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.18-08.06.39:870][ 67]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.18-08.06.39:871][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.05.18-08.06.39:872][ 67]LogStreaming: Display: FlushAsyncLoading(930): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.18-08.06.39:874][ 67]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstMap'.
+[2026.05.18-08.06.39:874][ 67]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstMap
+[2026.05.18-08.06.39:884][ 67]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.18-08.06.39:901][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.05.18-08.06.39:952][ 67]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.18-08.06.39:952][ 67]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,048ms to complete.
+[2026.05.18-08.06.39:971][ 67]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
